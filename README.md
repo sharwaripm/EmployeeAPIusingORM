@@ -1,2 +1,3 @@
 # EmployeeAPIusingORM
 ASP.NET Core Web API that manages employee data using Entity Framework Core (Database First Approach)
+This ASP.NET Core Web API project uses Entity Framework Core with a Database First approach, configured to connect to a SQL Server database via EmployeeDatabaseContext. It sets up essential services including controllers, Swagger for API documentation, CORS policies to allow requests from any origin, and integrates the database context with a connection string defined in the configuration. The application also includes middleware for HTTPS redirection, authorization, and sets up the request pipeline for development and production environments.
